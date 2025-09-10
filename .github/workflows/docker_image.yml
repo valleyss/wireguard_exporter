@@ -34,5 +34,5 @@ jobs:
           file: Dockerfile
           push: true
           tags: |
-            yourhubuser/wireguard_exporter:${{ github.ref_name }}
-            yourhubuser/wireguard_exporter:latest
+            vslley/wireguard_exporter:${{ github.ref_name }}
+            vslley/wireguard_exporter:latest
